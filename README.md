@@ -28,7 +28,7 @@ https://www.arduino.cc/
 	> Check for processer type
 - Download and install: https://www.arduino.cc/en/Main/Software
 
-## Lesson 1: Turn on built-in LED ([link](Lesson-1))
+## Lesson 1: Turn on built-in LED ([link](Lessons/Lesson-1))
 
 Purpose: The "Hello World" for Arduino
 
@@ -36,7 +36,7 @@ Purpose: The "Hello World" for Arduino
 - Arduino
 - USB Cable
 
-## Lesson 2: Make built-in LED blink
+## Lesson 2: Make built-in LED blink ([link](Lessons/Lesson-2-3))
 
 Purpose: Learn about order of operations and program setup in Arduino. Emphasize how it's a giant loop.
 
@@ -51,7 +51,7 @@ Purpose: Learn about order of operations and program setup in Arduino. Emphasize
 		- Initialize when assigning a value (x = 1)
 		- Can do all in one step: int x = 1
 
-## Lesson 3: Make external LED blink
+## Lesson 3: Make external LED blink ([link](Lessons/Lesson-2-3))
 
 ![external led](http://stephiescastle.com/teaching/computation-reconsidered/external-led_bb.svg?v=4)
 
@@ -62,7 +62,7 @@ Purpose: Introduce concepts of basic electronics
 - 10kΩ resistor
 - 3v LED
 
-## Lesson 4: Use a knob to control the blink rate
+## Lesson 4: Use a knob to control the blink rate ([link](Lessons/Lesson-4))
 
 ![external led with potentiometer](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot_bb.svg?v=4)
 
@@ -75,11 +75,11 @@ Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
 > Work in `for` and `while` loops. Right now this only covers `if/else` statements
 
-## Lesson 5: Using conditionals: If knob is in a value range
+## Lesson 5: Using conditionals: If knob is in a value range ([link](Lessons/Lesson-5))
 
 Purpose: Introduce using number ranges as a conditional
 
-## Lesson 6: Using conditionals: Switch between modes
+## Lesson 6: Using conditionals: Switch between modes ([link](Lessons/Lesson-6))
 
 ![external led with potentiometer and switch](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle_bb.svg?v=4)
 
@@ -88,7 +88,7 @@ Purpose: Introduce mode switching
 - switch
 - 10kΩ resistor
 
-## Lesson 7: Using conditionals: Momentary modes (momentary button)
+## Lesson 7: Using conditionals: Momentary modes (momentary button) ([link](Lessons/Lesson-7))
 
 ![external led with potentiometer, switch and button](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle-button_bb.svg?v=4)
 
