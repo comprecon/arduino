@@ -28,7 +28,7 @@ https://www.arduino.cc/
 	> Check for processer type
 - Download and install: https://www.arduino.cc/en/Main/Software
 
-## Lesson 1: Turn on built-in LED ([link](https://github.com/stephiescastle/computation-reconsidered/tree/master/arduino/Lessons/Lesson-1))
+## Lesson 1: Turn on built-in LED ([link](Lesson-1))
 
 Purpose: The "Hello World" for Arduino
 
