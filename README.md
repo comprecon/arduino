@@ -20,88 +20,25 @@ Slides: [Link](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38nc
 - Git/GitHub, Version control, repositories
 - terminal
 
-# Arduino
-https://www.arduino.cc/
+## In-Class Lessons
 
-- What is an arduino (microcontroller)
-- We're using the [Arduino Uno](http://www.arduino.org/products/boards/arduino-uno). Some students will be using the [Arduino Mega](http://www.arduino.org/products/boards/arduino-mega-2560)
-	> Check for processer type
-- Download and install: https://www.arduino.cc/en/Main/Software
+- [Lesson 1: Turn on built-in LED](Lessons/Lesson-1)
 
-## Lesson 1: Turn on built-in LED ([link](Lessons/Lesson-1))
+- [Lesson 2: Make built-in LED blink](Lessons/Lesson-2-3)
 
-Purpose: The "Hello World" for Arduino
+- [Lesson 3: Make external LED blink](Lessons/Lesson-2-3)
 
-- Laptop
-- Arduino
-- USB Cable
+- [Lesson 4: Use a knob to control the blink rate](Lessons/Lesson-4)
 
-## Lesson 2: Make built-in LED blink ([link](Lessons/Lesson-2-3))
+- [Lesson 5: Using conditionals: If knob is in a value range](Lessons/Lesson-5)
 
-Purpose: Learn about order of operations and program setup in Arduino. Emphasize how it's a giant loop.
+- [Lesson 6: Using conditionals: Switch between modes](Lessons/Lesson-6)
 
-- Variables (outside of setup for scope reasons. Okay so why not in loop? Because it will reset it every time.
-- Setup (all the code that happens once at the start)
-- Loop
-- Variables (ref: https://www.arduino.cc/en/Reference/VariableDeclaration )
-	- Variable Scope
-	- Declare and Initialize variables
-	- Order of operations (elaborate on this more, not just variables, the whole patch is order of operations)
-		- declare (int x)
-		- Initialize when assigning a value (x = 1)
-		- Can do all in one step: int x = 1
+- [Lesson 7: Using conditionals: Momentary modes (momentary button)](Lessons/Lesson-7)
 
-## Lesson 3: Make external LED blink ([link](Lessons/Lesson-2-3))
+## Concepts
 
-![external led](http://stephiescastle.com/teaching/computation-reconsidered/external-led_bb.svg?v=4)
-
-Purpose: Introduce concepts of basic electronics
-
-- Breadboard
-- Jumper cables
-- 10kΩ resistor
-- 3v LED
-
-## Lesson 4: Use a knob to control the blink rate ([link](Lessons/Lesson-4))
-
-![external led with potentiometer](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot_bb.svg?v=4)
-
-Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
-
-- Potentiometer
-- 10kΩ resistor
-
-`Okay, so it’s always looping and it’s always the same. What if we want it to do something different?`
-
-> Work in `for` and `while` loops. Right now this only covers `if/else` statements
-
-## Lesson 5: Using conditionals: If knob is in a value range ([link](Lessons/Lesson-5))
-
-Purpose: Introduce using number ranges as a conditional
-
-## Lesson 6: Using conditionals: Switch between modes ([link](Lessons/Lesson-6))
-
-![external led with potentiometer and switch](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle_bb.svg?v=4)
-
-Purpose: Introduce mode switching
-
-- switch
-- 10kΩ resistor
-
-## Lesson 7: Using conditionals: Momentary modes (momentary button) ([link](Lessons/Lesson-7))
-
-![external led with potentiometer, switch and button](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle-button_bb.svg?v=4)
-
-Purpose: Introduce use of momentary buttons
-
-- button
-- 10kΩ resistor
-
----
-
-# Concepts
-
-## Computers and Object-Oriented Programming
+### Computers and Object-Oriented Programming
 
 We just discovered basically everything a computer/program can do:
 
@@ -112,18 +49,18 @@ We just discovered basically everything a computer/program can do:
 
 It’s the combinations of these things **arranged into a set of instructions** that make a computer program.
 
-### Development Strategies
+#### Development Strategies
 
 The lessons above walked us through an iterative exploratory exercise. "Exploratory programming" is a super fun, creative and effective way to learn how to program, but what about when you have a specific goal in mind?
 
-#### Basic Development Method
+##### Basic Development Method
 - Define the problem that needs to be solved
 - Design a solution
 - Write a program that implements the solution
 - Compile and run that program
 - Test and debug
 
-#### Complex Development Method
+##### Complex Development Method
 
 To tackle a complex problem:
 
@@ -131,7 +68,7 @@ To tackle a complex problem:
 - apply the basic development method (including testing and debugging) to each individual problem
 - combine all of your solutions into a master program. Note that this step will also require testing and debugging 
 
-## Version Control and GitHub
+### Version Control and GitHub
 
 - terminal
 - sharing code
