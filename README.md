@@ -1,8 +1,8 @@
 # Unit 1: Arduino and Git
 
-Slides: [Link](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)  
+**Slides:** [Link to Presentation](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing) :eyes:  
 
-**Unit Materials**
+## Unit Materials
 - Laptop
 - Arduino Uno or Mega
 - USB cable (A to B)
@@ -13,12 +13,6 @@ Slides: [Link](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38nc
 - 4 resistors
 - 1 switch
 - 1 button
-
-**Concepts**
-- Arduino / Microcontroller
-- OOP
-- Git/GitHub, Version control, repositories
-- terminal
 
 ## In-Class Lessons
 
