@@ -1,4 +1,4 @@
-# Unit 1: Arduino and Git
+# Unit 1: Arduino and Version Control
 
 **Slides:** [Link to Presentation](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing) :eyes:  
 
@@ -61,13 +61,6 @@ To tackle a complex problem:
 - **break the problem down into a series of one-step problems**
 - apply the basic development method (including testing and debugging) to each individual problem
 - combine all of your solutions into a master program. Note that this step will also require testing and debugging 
-
-### Version Control and GitHub
-
-- terminal
-- sharing code
-- version control
-- github
 
 --- 
 
