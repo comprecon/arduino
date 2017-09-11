@@ -30,6 +30,13 @@
 
 - [Lesson 7: Using conditionals: Momentary modes (momentary button)](Lessons/Lesson-7)
 
+## Assignments
+
+- closed system vs. open system
+- one input --> two outputs
+- browse examples, and modify one to use your own uniquely transformed input
+- make an installation
+
 ## Concepts
 
 ### Computers and Object-Oriented Programming
