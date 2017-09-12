@@ -1,7 +1,5 @@
 # Unit 1: Arduino
 
-**Slides:** [Link to Presentation](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing) :eyes:  
-
 ## Unit Materials
 - Laptop
 - Arduino Uno or Mega
