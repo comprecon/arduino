@@ -36,7 +36,7 @@ void loop() {
   Serial.print("Switch: ");
   Serial.println(switchState);
 
-  while (digitalRead(switchPin); == 1) {
+  if (digitalRead(switchPin) == 1) {
     // switch is on so read the value of the knob
     
     knobValue = analogRead(knobPin);
@@ -65,8 +65,7 @@ void loop() {
       
     } // end of knobValue if/else 
     
-  } 
-  while (digitalRead(switchPin); == 0) {
+  } else {
     // switch is off
     digitalWrite(ledPin, LOW);          // turn the ledPin off
     

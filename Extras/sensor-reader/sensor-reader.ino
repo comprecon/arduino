@@ -25,10 +25,10 @@ void loop() {
   Serial.println(sensorValue);      // print out the value
 
   // visual indicator
-  digitalWrite(ledPin, HIGH);       // turn the ledPin on
-  delay(sensorValue);                 // stop the program for <knobValue> ms
-  sensorValue = analogRead(sensorPin);
-  digitalWrite(ledPin, LOW);        // turn the ledPin off
-  delay(sensorValue);                 // stop the program for <knobValue> ms
+//  digitalWrite(ledPin, HIGH);       // turn the ledPin on
+//  delay(sensorValue);                 // stop the program for <knobValue> ms
+//  sensorValue = analogRead(sensorPin);
+//  digitalWrite(ledPin, LOW);        // turn the ledPin off
+//  delay(sensorValue);                 // stop the program for <knobValue> ms
 
 }
