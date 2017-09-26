@@ -32,6 +32,7 @@
 
 # Helpful Links / More Resources
 
+* [Arduino Reference](https://www.arduino.cc/en/Reference/HomePage)  
 * [When to use pinMode](https://www.baldengineer.com/when-to-use-arduinos-pinmode-and-why.html)
 
 
