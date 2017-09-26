@@ -1,11 +1,18 @@
 /**************************************
- Lesson 5: Using Conditionals: Use knob range as a conditional
+ Read a Sensor
+
+ Make sure you know how much power the
+ sensor needs in order to function.
+
+ Sensor should be connected to ground
+ and appropriate power, and its signal
+ should be connected to an analog input
  
 **************************************/
 
 int ledPin = LED_BUILTIN; // same as pin 13
 
-int sensorPin = A0;     // analog pin because reading a voltage (range of numbers)
+int sensorPin = A0;     // analog pin because reading a range of numbers
 int sensorValue = 0;    // variable for reading the sensor
 
 void setup() {

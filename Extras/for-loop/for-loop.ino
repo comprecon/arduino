@@ -27,21 +27,19 @@ int ledPin = 10; // LED in series with 470 ohm resistor on pin 10
 
 void setup()
 {
-  // not necessary, but doesn't hurt
-  pinMode(ledPin,INPUT);
-
+  pinMode(ledPin,OUTPUT);
 }
 
 void loop()
 {
   
-//for (variable init; condition; increment) {}  
+  // for (variable init; condition; increment) {}  
   for (int i=0; i <= 255; i++){
     analogWrite(ledPin, i);
     delay(10);
   }
 
-  // how to make it do the reverse?
+  // can you make it do the reverse?
   
 }
 

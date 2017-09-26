@@ -1,5 +1,5 @@
 /**************************************
-  Example: Dim an LED using a while loop and a PWM pin 
+  Example: Various ways to write the while conditional 
 
 --The while loop ------------------------
   
@@ -18,27 +18,43 @@
   
 **************************************/
 
-int ledPin = 10; // LED in series with 470 ohm resistor on pin 10
+int ledPin = 13;
 
-void setup()
-{
-  // not necessary, but doesn't hurt
-  pinMode(ledPin,INPUT);
+int buttonPin = 2;
+int buttonState = 0;
 
+void setup() {
+  pinMode(ledPin,OUTPUT);
+  pinMode(buttonPin,INPUT);
 }
 
-void loop()
-{
+void loop() {
+
+  // GOAL: the LED light should be on except for when the button is pressed
   
-  int i = 0; // note the placement of the variable init
+ /* first way (long-winded)
+    doing it this way, you must read the pin before the while loop
+    and again inside the while loop at the end
+  */
   
-  while (i <= 255){
-    analogWrite(ledPin, i);
-    delay(10);
-    i++;
+  buttonState = digitalRead(buttonPin); // read it before
+  while(buttonState == 1) {
+    digitalWrite(ledPin, LOW);
+    buttonState = digitalRead(buttonPin); // read it again inside or else it will get stuck
   }
 
-  // how to make it do the reverse?
+
+ /* second way (all in one)
+    the conditional evaluates the pin every time, so you don't
+    need to worry about reading it before and reading it within
+  */
+  
+//  while(digitalRead(buttonPin) == 1) { // reads it as part of evaluating the conditional
+//    digitalWrite(ledPin, LOW);
+//  }
+  
+  digitalWrite(ledPin, HIGH);
+
   
 }
 
