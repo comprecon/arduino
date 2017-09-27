@@ -37,11 +37,11 @@ void loop() {
     and again inside the while loop at the end
   */
   
-  buttonState = digitalRead(buttonPin); // read it before
-  while(buttonState == 1) {
-    digitalWrite(ledPin, LOW);
-    buttonState = digitalRead(buttonPin); // read it again inside or else it will get stuck
-  }
+//  buttonState = digitalRead(buttonPin); // read it before
+//  while(buttonState == 1) {
+//    digitalWrite(ledPin, LOW);
+//    buttonState = digitalRead(buttonPin); // read it again inside or else it will get stuck
+//  }
 
 
  /* second way (all in one)
@@ -49,9 +49,9 @@ void loop() {
     need to worry about reading it before and reading it within
   */
   
-//  while(digitalRead(buttonPin) == 1) { // reads it as part of evaluating the conditional
-//    digitalWrite(ledPin, LOW);
-//  }
+  while(digitalRead(buttonPin) == 1) { // reads it as part of evaluating the conditional
+    digitalWrite(ledPin, LOW);
+  }
   
   digitalWrite(ledPin, HIGH);
 

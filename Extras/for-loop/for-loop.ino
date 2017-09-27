@@ -39,7 +39,12 @@ void loop()
     delay(10);
   }
 
-  // can you make it do the reverse?
+  // do the reverse
+  for (int i=255; i >= 0; i--) {
+    analogWrite(ledPin, i);
+    delay(10);
+  }
+
   
 }
 
